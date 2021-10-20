@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Icons";
+  src: url("../iconfonts/Icons.eot?2yj58q");
+  src: url("../iconfonts/Icons.eot?2yj58q#iefix") format("embedded-opentype"),
+    url("../iconfonts/Icons.ttf?2yj58q") format("truetype"),
+    url("../iconfonts/Icons.woff?2yj58q") format("woff"),
+    url("../iconfonts/Icons.svg?2yj58q#Icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "Icons" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-01:before {
+  content: "\e901";
+}
+.icon-02:before {
+  content: "\e902";
+  color: #748fb5;
+}
+.icon-03:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-Charts:before {
+  content: "\e904";
+  color: #748fb5;
+}
+.icon-Contacts .path1:before {
+  content: "\e905";
+  color: rgb(116, 143, 181);
+}
+.icon-Contacts .path2:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(255, 110, 48);
+}
+.icon-Contacts .path3:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(255, 110, 48);
+}
+.icon-Downloads .path1:before {
+  content: "\e908";
+  color: rgb(255, 110, 48);
+}
+.icon-Downloads .path2:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(116, 143, 181);
+}
+.icon-Workspace .path1:before {
+  content: "\e90a";
+  color: rgb(255, 110, 48);
+}
+.icon-Workspace .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(116, 143, 181);
+}
+.icon-play:before {
+  content: "\e900";
+}
